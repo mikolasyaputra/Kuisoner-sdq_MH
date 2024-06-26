@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-size: cover; /* Menyesuaikan ukuran gambar agar seluruh area tercakup */
+    background-position: center; /* Posisi gambar di tengah */
+    padding: 20px; /* Padding 20 piksel */
+    height: 100vh; /* Set tinggi body sesuai dengan viewport */
+    margin: 0; /* Hilangkan margin bawaan */
+}
+
+
+
+.container {
+    max-width: 900px;
+    margin: 20px auto; /* Menambahkan margin atas dan bawah 20px, dan mengatur auto untuk horizontal */
+    background-color: #ffffff;
+    padding: 30px; /* Menambahkan sedikit padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Mengatur bayangan dengan sedikit blur */
+    border-radius: 12px; /* Menambahkan radius sudut yang lebih besar */
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue color for headings */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #333; /* Text color for labels */
+}
+
+.form-check-label {
+    margin-right: 20px;
+    color: #333; /* Text color for checkbox/radio labels */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* Radio button and checkbox styles */
+.form-check-input {
+    margin-top: 5px;
+    border: 2px solid #007bff; /* Blue border color */
+    border-radius: 50%; /* Rounded shape for checkboxes and radio buttons */
+    width: 18px;
+    height: 18px;
+}
+
+/* Checked state styles */
+.form-check-input:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Color for checked labels */
+.form-check-input:checked + .form-check-label {
+    color: #007bff;
+}
+
+.btn.btn-primary {
+    background-color: #007bff; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    border: none; /* Hilangkan border */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border-radius: 4px; /* Rounded border */
+    cursor: pointer; /* Pointer saat hover */
+    transition: background-color 0.3s ease; /* Animasi perubahan warna */
+}
+
+.btn.btn-primary:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+}
+
